@@ -1,12 +1,62 @@
-# React + Vite
+# 🚀 SoftSell — Software License Resale Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SoftSell** is a modern, responsive, single-page marketing website for a fictional software resale startup. Built using **React.js**, **Vite**, and **Tailwind CSS v4**, this project demonstrates quick execution, clean code, and solid design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features Implemented
 
-## Expanding the ESLint configuration
+- ✅ **Hero Section** with headline, subheading, and CTA
+- ✅ **How It Works** section with 3 visually distinct steps
+- ✅ **Why Choose Us** with feature tiles and icons
+- ✅ **Customer Testimonials** with name, role, and company
+- ✅ **Contact / Lead Form** with:
+  - Name, Email, Company, License Type (dropdown), and Message
+  - Frontend validation
+- ✅ **Mobile Responsive** layout with Tailwind CSS
+- ✅ **Custom Font + Color Palette** for branding
+- ✅ **Favicon and Logo Placeholder**
+- ✅ **SEO Tags** (title, meta description, responsive meta)
+- ✅ **Deployed on Netlify** (or Vercel/GitHub Pages)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎨 Design Choices
+
+- **Tailwind CSS v4** with no custom config for simplicity
+- **Minimalist and clean layout** focused on readability
+- **Brand Colors**: Blue gradient (`from-blue-50` to `to-blue-100`)
+- **Font**: Inter, with accessible color contrast
+- **Mobile-first** development using Tailwind’s responsive utilities
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js (via Vite)
+- **Styling**: Tailwind CSS v4
+- **Deployment**: Netlify 
+
+---
+
+## 🕒 Time Spent
+
+| Task                         | Hours |
+|------------------------------|-------|
+| Project Setup & Tailwind     | 0.5   |
+| Hero + How It Works          | 1     |
+| Why Choose Us + Testimonials | 1     |
+| Contact Form + Validation    | 1     |
+| Styling + Responsive Design  | 1     |
+| Dark Mode + Animation        | 0.5   |
+| README + Deployment          | 0.5   |
+| **Total**                    | **5.5** hours |
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+git clone https://github.com/KeshavBhagat09/softSell.git
+cd softsell
+npm install
+npm run dev
