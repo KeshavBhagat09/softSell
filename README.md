@@ -56,7 +56,7 @@
 ## 📦 Installation & Setup
 
 ```bash
-git clone https://github.com/KeshavBhagat09/softSell.git
+git clone https://github.com/KeshavBhagat09/softSell
 cd softsell
 npm install
 npm run dev
